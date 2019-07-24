@@ -1,11 +1,8 @@
-from math import sqrt
+from math import acos
 
-a, b, c = 1, 1, 1
 
-print(b)
-while c<15: 
-    a, b, c = b, a+b, c+1
-    print(b)
+param = input('Veuillez saisir votre parametre :')
 
-laye = sqrt(25)
-print(laye)
+angle = acos(int(param))
+
+print(angle)
